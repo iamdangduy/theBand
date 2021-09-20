@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    top: 0;
+}
+
+ul li {
+    position: relative;
+    display: block;
+    float: left;
+    color: black;
+    margin-left: 30px;
+    top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.slider {
+    margin-top: 50px;
+    padding-top: 50%;
+    background-image: url(https://www.w3schools.com/w3images/chicago.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.description {
+    position: relative;
+}
+
+#chicago {
+    position: absolute;
+    left: 47%;
+    bottom: 100px;
+}
+
+#band {
+    text-align: center;
+    margin-left: 91.5px;
+    margin-right: 91.5px;
+    padding: 64px 16px;
+}
+
+h1 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+
+#lovemusic {
+    margin: 15px 0px;
+}
+
+#p-justify {
+    text-align: justify!important;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 768px;
+    height: 132px;
+}
+
+#band .member-list {
+    display: block;
+} 
+
+#band .member-item {
+    width: 30%;
+    float: left;
+    
+}
+
+#band .member-name {
+    padding: 15px 0;
+}
+
+#tour {
+    background-color: black;
+    text-align: center;
+    padding: 64px 16px;
+    height: 650px;
+}
+
+#tour .month {
+    padding: 8px 16px;
+    background-color: white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 1px;
+    text-align: left;
+}
+
+#tour .month-tour {
+    margin-top: 20px;
+}
+
+#tour .preview { 
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tour .preview-tour {
+    background-color: white;
+    width: 30%;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: left;
+    
+}
+
+#tour .buy-ticket {
+    width: 40%;
+    background-color: black;
+    margin: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#tour .text-preview {
+    margin-left: 10px;
+}
+
+#footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#footer .img-country {
+    margin-top: 50px;
+    padding-top: 50%;
+    background-image: url(https://www.w3schools.com/w3images/map.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
